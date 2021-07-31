@@ -40,7 +40,7 @@ try:
             img= np.array(image.resize((128,128), Image.ANTIALIAS))
             img= np.array(img, dtype='uint8')
             img= np.array(img)/(255.0)
-            model= keras.models.load_model('model/model.h5')
+            model= keras.models.load_model('Model/model.h5')
             train_labels= {'EGG': 0, 'FISH': 1, 'MILK': 2, 'NO ALLERGENS': 3, 'PEANUTS': 4, 'SOY': 5, 'TREE NUTS': 6, 'WHEAT': 7}
             labels= dict((value,key) for key, value in train_labels.items())
             predictions= model.predict(img[np.newaxis,...])
