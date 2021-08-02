@@ -14,7 +14,7 @@ One can  send a request for accessing the dataset <a href= "https://drive.google
 
 ## Model components
 The model has 3 conv2D Layers each followed by a MaxPooling2D. The Flatten layer follows before the forward pass and classification task performed by the Fully Connected Layers with ReLU and Softmax activation function respectively. <br> <br>
-<img src= "assets/model.png" height= 580 width= 200> <img src= "assets/sequential.PNG" >
+<img src= "assets/model.png" height= 580 width= 200> <img src= "assets/sequential.PNG" width= 400 height=550>
 
 ## Usage guidelines
 - Cloning the repository
@@ -32,3 +32,17 @@ The model has 3 conv2D Layers each followed by a MaxPooling2D. The Flatten layer
 - Running the Web Application from terminal 
 
         streamlit run main.py 
+        
+## Demonstration 
+- Uploading image from device 
+
+![](assets/Device.gif)
+
+- Uploading image via link
+
+![](assets/Link.gif)
+
+- Detecting the Allergen
+
+![](assets/Detect.gif)
+
