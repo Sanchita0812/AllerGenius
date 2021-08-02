@@ -4,3 +4,10 @@ There are a lot of people who suffer from certain allergies and struggle to find
 
 ## Proposed solution 
 For dealing with this problem, it is necessary that people become aware as soon as possible about the brands that they're purchasing, the goods that they are purchasing or eating; is safe for them or not. This can be applied for the foods in restaurants too but for that, the software has to be city-specific where all the restaurants of the city are given a list of all the common allergens and then they have to give out a list of the dishes they serve which have any of those allergens. Then that data can be updated on the software database. The software for allergen detection can be a cv based scanner for goods and packaged items and just a normal database for restaurants. Then this software can be launched as an android app or a web app. 
+
+## Dataset
+For this project, I have collected the data by *web scraping* which presently contains 770 images belonging to 8 classes viz *'PEANUTS', 'TREE NUTS', 'MILK', 'NO ALLERGENS', 'FISH', 'EGG', 'SOY', 'WHEAT'*. The data has been split into 607 training+validation and 163 test images. <br>
+One can  send a request for accessing the dataset <a href= "https://drive.google.com/drive/folders/1tDJpAPi3p5VSeuhVHSeMoAENMuUEsJ1Y?usp=sharing">here</a>.
+
+### Visualizing a part of the dataset.
+<img src= "assets/visualize.PNG">
