@@ -46,3 +46,5 @@ The model has 3 conv2D Layers each followed by a MaxPooling2D. The Flatten layer
 
 ![](assets/Detect.gif)
 
+<hr>
+This project has been developed by <a href= "https://github.com/Sanchita0812">Sanchita Kiran</a>
