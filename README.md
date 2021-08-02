@@ -14,7 +14,7 @@ One can  send a request for accessing the dataset <a href= "https://drive.google
 
 ## Model components
 The model has 3 conv2D Layers each followed by a MaxPooling2D. The Flatten layer follows before the forward pass and classification task performed by the Fully Connected Layers with ReLU and Softmax activation function respectively. <br> <br>
-<img src= "assets/model.png" height= 580 width= 200> <img src= "assets/sequential.PNG" width= 400 height=550>
+<img src= "assets/model.png" height= 580 width= 200> <img src= "assets/sequential.PNG" width= 425 height=575>
 
 ## Usage guidelines
 - Cloning the repository
