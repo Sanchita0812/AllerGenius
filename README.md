@@ -14,4 +14,21 @@ One can  send a request for accessing the dataset <a href= "https://drive.google
 
 ## Model components
 The model has 3 conv2D Layers each followed by a MaxPooling2D. The Flatten layer follows before the forward pass and classification task performed by the Fully Connected Layers with ReLU and Softmax activation function respectively. <br> <br>
-<img src= "assets/model.png" height= 580 width= 250> <img src= "assets/sequential.PNG">
+<img src= "assets/model.png" height= 580 width= 200> <img src= "assets/sequential.PNG" >
+
+## Usage guidelines
+- Cloning the repository
+
+        git clone https://github.com/Sanchita0812/AllerGenius
+
+- Entering the directory
+
+        cd AllerGenius
+        
+- Setting up the Python Environment with dependencies
+
+        pip install -r requirements.txt
+        
+- Running the Web Application from terminal 
+
+        streamlit run main.py 
