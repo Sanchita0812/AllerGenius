@@ -3,7 +3,7 @@
 There are a lot of people who suffer from certain allergies and struggle to find eatables that don't contain those allergens. I have also faced that problem a billion times because i have a severe tree nut allergy and sometimes when i purchase packaged foods the allergen information aren't mentioned or even if they are, it is in such a fine print that it is really easy to miss. This has caused a lot of problems and turmoil in my life and in the lives of a lot of other people too.
 
 ## Proposed solution 
-For dealing with this problem, it is necessary that people become aware as soon as possible about the brands that they're purchasing, the goods that they are purchasing or eating; is safe for them or not. The software for allergen detection is a CV based application deployed as a web app with the help of *Streamlit*. The user can upload an image of the product that they will like to test and then the app will notify them about the presence of allergens along with its name.
+For dealing with this problem, it is necessary that people become aware as soon as possible about the brands and the goods that they are purchasing or eating; is safe for them or not. The software for allergen detection is a CV based application deployed as a web app with the help of *Streamlit*. The user can upload an image of the product that they will like to test and then the app will notify them about the presence of allergens along with its name.
 
 ## Dataset
 For this project, I have collected the data by *web scraping* which presently contains 770 images belonging to 8 classes viz *'PEANUTS', 'TREE NUTS', 'MILK', 'NO ALLERGENS', 'FISH', 'EGG', 'SOY', 'WHEAT'*. The data has been split into 607 training+validation and 163 test images. <br>
