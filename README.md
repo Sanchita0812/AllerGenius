@@ -32,6 +32,8 @@ The model has 3 conv2D Layers each followed by a MaxPooling2D. The Flatten layer
 - Running the Web Application from terminal 
 
         streamlit run main.py 
+ 
+ Check out the notebook <a href= "https://nbviewer.jupyter.org/github/Sanchita0812/AllerGenius/blob/main/Notebook/Allergen%20notebook.ipynb" target= "_blank">here</a>.
         
 ## Demonstration 
 - Uploading image from device 
