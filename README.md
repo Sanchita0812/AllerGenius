@@ -52,8 +52,8 @@ If a user wants to run AllerGenius on their own system, they can follow these st
 ![](assets/Detect.gif)
 
 ## Additions to be made in the future
--[ ] Expand the dataset
--[ ] Retrain the model more to increase accuracy
+-[] Expand the dataset
+-[] Retrain the model more to increase accuracy
 
 <hr>
 This project has been developed by <a href= "https://github.com/Sanchita0812">Sanchita Kiran</a>
