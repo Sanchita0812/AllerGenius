@@ -17,6 +17,7 @@ The model has 3 conv2D Layers each followed by a MaxPooling2D. The Flatten layer
 <img src= "assets/model.png" height= 580 width= 200> <img src= "assets/sequential.PNG" width= 425 height=575>
 
 ## Usage guidelines
+If a user wants to run AllerGenius on their own system, they can follow these steps-
 - Cloning the repository
 
         git clone https://github.com/Sanchita0812/AllerGenius
@@ -34,6 +35,8 @@ The model has 3 conv2D Layers each followed by a MaxPooling2D. The Flatten layer
         streamlit run main.py 
  
  Check out the notebook <a href= "https://nbviewer.jupyter.org/github/Sanchita0812/AllerGenius/blob/main/Notebook/Allergen%20notebook.ipynb" target= "_blank">here</a>.
+ 
+ Alternatively, the webapp is available online with the help of Streamlit cloud. To access it click <a href= "https://share.streamlit.io/sanchita0812/allergenius/main/main.py">here</a>.
         
 ## Demonstration 
 - Uploading image from device 
@@ -47,6 +50,10 @@ The model has 3 conv2D Layers each followed by a MaxPooling2D. The Flatten layer
 - Detecting the Allergen
 
 ![](assets/Detect.gif)
+
+## Additions to be made in the future
+        -[ ] Expand the dataset
+        -[ ] Retrain the model more to increase accuracy
 
 <hr>
 This project has been developed by <a href= "https://github.com/Sanchita0812">Sanchita Kiran</a>
